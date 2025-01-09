@@ -72,3 +72,27 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.search-section button:hover {
+    background: rgb(30, 199, 112);
+}
+
+.results-section {
+    margin: 2rem 0;
+}
+
+.result {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.result:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
