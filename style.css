@@ -56,3 +56,19 @@ footer {
     transition: all 0.3s ease;
 }
 
+.search-section input:focus {
+    border-color: rgb(30, 199, 112);
+    box-shadow: 0 0 10px rgba(30, 199, 112, 0.7);
+}
+
+.search-section button {
+    padding: 0.8rem 1.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: white;
+    background: rgb(33, 150, 243);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
