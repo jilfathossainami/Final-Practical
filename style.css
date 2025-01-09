@@ -44,3 +44,15 @@ footer {
     margin: 2rem 0;
     text-align: center;
 }
+
+.search-section input {
+    width: 70%;
+    max-width: 600px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid rgb(33, 150, 243);
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
