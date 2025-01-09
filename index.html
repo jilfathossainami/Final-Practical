@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meal Finder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>🍴 FoodieFinds</h1>
+        </div>
+    </header>
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <input type="text" id="search-input" placeholder="Type a meal name..." aria-label="Search meals">
+                <button id="search-button">Search</button>
+            </div>
+        </section>
+        <section class="results-section">
+            <div class="container" id="results"></div>
+            <div id="show-all-wrapper">
+                <button id="show-all-button" style="display: none;">Show All</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 FoodieFinds | Designed with ❤️</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
